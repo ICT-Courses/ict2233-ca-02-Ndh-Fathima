@@ -25,7 +25,7 @@ const Contact: React.FC = () => {
   return (
     <div className="min-h-screen py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Header Section  for the contact page*/}
+        {/* Header Section for the contact page*/}
         <div className="text-center mb-20">
           <h1 className="text-5xl sm:text-6xl font-bold text-gray-900 dark:text-white mb-6">
             Get In Touch
@@ -149,7 +149,7 @@ const Contact: React.FC = () => {
           </div>
         </div>
 
-        {/* Asked question Section */}
+        {/* Asked Section */}
         <section className="mt-24">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-6">
