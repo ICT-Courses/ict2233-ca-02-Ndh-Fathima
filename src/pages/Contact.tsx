@@ -45,9 +45,7 @@ const Contact: React.FC = () => {
               </h2>
               <p className="text-lg text-gray-600 dark:text-gray-400 mb-8">
                 I'm always excited to take on new challenges and collaborate with 
-                amazing people. Whether you're a startup looking for a developer, 
-                an agency needing extra hands, or someone with a cool project idea, 
-                I'd love to hear from you!
+                amazing people. 
               </p>
             </div>
 
@@ -137,8 +135,7 @@ const Contact: React.FC = () => {
                 </h3>
               </div>
               <p className="text-green-700 dark:text-green-400">
-                I'm currently accepting new freelance projects and collaborations. 
-                Let's discuss your requirements and see how I can help bring your vision to life.
+                
               </p>
             </div>
           </div>
@@ -165,10 +162,7 @@ const Contact: React.FC = () => {
 
           <div className="grid md:grid-cols-2 gap-8">
             {[
-              {
-                question: "What's your typical project timeline?",
-                answer: "Project timelines vary depending on complexity, but most web applications take 2-8 weeks from start to finish. I'll provide a detailed timeline during our initial consultation."
-              },
+              
               {
                 question: "Do you work with teams or solo?",
                 answer: "I enjoy both! I can work independently on smaller projects or collaborate with your existing team. I'm experienced with agile methodologies and remote collaboration tools."
@@ -177,14 +171,8 @@ const Contact: React.FC = () => {
                 question: "What technologies do you specialize in?",
                 answer: "My primary focus is on React, TypeScript, Node.js, and modern web technologies. I'm also comfortable with various databases, cloud platforms, and deployment tools."
               },
-              {
-                question: "Do you provide ongoing maintenance?",
-                answer: "Absolutely! I offer ongoing support and maintenance packages to ensure your application stays secure, updated, and running smoothly after launch."
-              },
-              {
-                question: "What's your pricing structure?",
-                answer: "I offer both fixed-price projects and hourly rates depending on the scope and requirements. I'll provide a detailed quote after understanding your specific needs."
-              },
+              
+              
               {
                 question: "Can you help with existing projects?",
                 answer: "Yes! I can help debug issues, add new features, improve performance, or modernize legacy codebases. I'm comfortable working with existing systems and teams."

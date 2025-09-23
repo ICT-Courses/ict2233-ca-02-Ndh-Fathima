@@ -1,6 +1,6 @@
 import React from 'react';
 import { Calendar, Award, BookOpen, Code, Coffee, Heart } from 'lucide-react';
-import { PERSONAL_INFO, SKILLS, EXPERIENCE, EDUCATION } from '../utils/constants';
+import { PERSONAL_INFO, SKILLS, EDUCATION } from '../utils/constants';
 import SkillCard from '../components/SkillCard';
 
 const About: React.FC = () => {
@@ -109,61 +109,7 @@ const About: React.FC = () => {
           </div>
         </section>
 
-        {/* Experience Section */}
-        <section className="mb-20">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-6">
-              Work Experience
-            </h2>
-            <p className="text-xl text-gray-600 dark:text-gray-400 max-w-3xl mx-auto">
-              My professional journey and the experiences that shaped my skills
-            </p>
-          </div>
 
-          <div className="space-y-8">
-            {EXPERIENCE.map((exp) => (
-              <div key={exp.id} className="bg-white dark:bg-gray-800 rounded-xl p-8 shadow-lg border border-gray-200 dark:border-gray-700">
-                <div className="flex items-start justify-between mb-4">
-                  <div className="flex-1">
-                    <div className="flex items-center gap-3 mb-2">
-                      <h3 className="text-2xl font-semibold text-gray-900 dark:text-white">
-                        {exp.title}
-                      </h3>
-                      {exp.current && (
-                        <span className="px-3 py-1 bg-green-100 dark:bg-green-900/30 text-green-600 dark:text-green-400 rounded-full text-sm font-medium">
-                          Current
-                        </span>
-                      )}
-                    </div>
-                    <div className="flex items-center gap-2 text-lg text-blue-600 dark:text-blue-400 mb-2">
-                      <Award className="w-5 h-5" />
-                      <span>{exp.company}</span>
-                    </div>
-                    <div className="flex items-center gap-2 text-gray-500 dark:text-gray-400">
-                      <Calendar className="w-4 h-4" />
-                      <span>{exp.period}</span>
-                    </div>
-                  </div>
-                </div>
-                
-                <p className="text-gray-600 dark:text-gray-400 mb-4 leading-relaxed">
-                  {exp.description}
-                </p>
-                
-                <div className="flex flex-wrap gap-2">
-                  {exp.technologies.map((tech) => (
-                    <span
-                      key={tech}
-                      className="px-3 py-1 bg-blue-100 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400 rounded-full text-sm"
-                    >
-                      {tech}
-                    </span>
-                  ))}
-                </div>
-              </div>
-            ))}
-          </div>
-        </section>
 
         {/* Education Section */}
         <section className="mb-20">
@@ -223,8 +169,8 @@ const About: React.FC = () => {
             {[
               { icon: "☕", title: "Coffee Consumed", value: "∞ cups", subtitle: "Fuel for coding" },
               { icon: "🌙", title: "Night Owl", value: "11 PM - 3 AM", subtitle: "Peak productivity hours" },
-              { icon: "🎵", title: "Coding Music", value: "Lo-fi & Jazz", subtitle: "Perfect focus playlist" },
-              { icon: "🏃‍♀️", title: "Debug Method", value: "Rubber Duck", subtitle: "Best debugging partner" }
+              { icon: "🎵", title: "Coding Music", value: "Melody", subtitle: "Perfect focus playlist" },
+              { icon: "🏃‍♀️", title: "Fear", value: "Dogs", subtitle: "Maintain distance" }
             ].map((fact, index) => (
               <div key={index} className="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg border border-gray-200 dark:border-gray-700 text-center">
                 <div className="text-4xl mb-4">{fact.icon}</div>

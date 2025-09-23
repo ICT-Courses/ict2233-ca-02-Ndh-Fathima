@@ -102,7 +102,7 @@ const Home: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             {[
-              { number: "3+", label: "Years Experience" },
+              { number: "1+", label: "Learning" },
               { number: "2+", label: "Projects Completed" },
               { number: "10+", label: "Technologies" },
               { number: "100%", label: "Client Satisfaction" }
