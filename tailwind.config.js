@@ -7,13 +7,12 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        inter: ['Inter', 'sans-serif'],       // for body text
-        heading: ['Poppins', 'sans-serif'],   // for headings
+        'inter': ['Inter', 'sans-serif'],
       },
       colors: {
         gray: {
-          50: '#f9fafb',
-          100: '#f3f4f6',
+          50: '#2d5c8bff',
+          100: '#3b414eff',
           200: '#e5e7eb',
           300: '#d1d5db',
           400: '#9ca3af',
@@ -25,7 +24,7 @@ module.exports = {
         },
       },
       animation: {
-        float: 'float 6s ease-in-out infinite',
+        'float': 'float 6s ease-in-out infinite',
         'pulse-ring': 'pulse-ring 1.25s cubic-bezier(0.215, 0.61, 0.355, 1) infinite',
       },
       keyframes: {
@@ -42,8 +41,8 @@ module.exports = {
         xs: '2px',
       },
       transitionProperty: {
-        height: 'height',
-        spacing: 'margin, padding',
+        'height': 'height',
+        'spacing': 'margin, padding',
       },
     },
   },

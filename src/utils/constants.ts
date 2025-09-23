@@ -1,4 +1,4 @@
-import { Project, Skill, Experience, Education, SocialLink } from '../types';
+import { Project, Skill, Education, SocialLink } from '../types';
 
 export const PERSONAL_INFO = {
   name: "Nadha Siddeek",
@@ -47,35 +47,7 @@ export const SKILLS: Skill[] = [
   { name: "Communication", level: "Advanced", category: "Soft Skills", icon: "💬" },
 ];
 
-export const EXPERIENCE: Experience[] = [
-  {
-    id: "1",
-    title: "Frontend Developer",
-    company: "Tech Solutions Lanka",
-    period: "2023 - Present",
-    description: "Developed and maintained responsive web applications using React, TypeScript, and modern CSS frameworks. Collaborated with design teams to implement pixel-perfect user interfaces and improved application performance by 40%.",
-    technologies: ["React", "TypeScript", "Tailwind CSS", "Firebase"],
-    current: true
-  },
-  {
-    id: "2",
-    title: "Junior Web Developer",
-    company: "Digital Creative Agency",
-    period: "2022 - 2023",
-    description: "Built interactive web applications and contributed to the development of reusable component libraries. Gained experience in full-stack development and API integration while working on client projects.",
-    technologies: ["JavaScript", "React", "Node.js", "MongoDB"],
-    current: false
-  },
-  {
-    id: "3",
-    title: "Web Development Intern",
-    company: "StartUp Hub Colombo",
-    period: "2021 - 2022",
-    description: "Assisted in developing company website and internal tools. Learned modern web development practices and collaborated with senior developers on various projects.",
-    technologies: ["HTML", "CSS", "JavaScript", "PHP"],
-    current: false
-  }
-];
+
 
 export const EDUCATION: Education[] = [
   {
@@ -143,4 +115,5 @@ export const NAVIGATION_ITEMS = [
   { name: 'About', path: '/about' },
   { name: 'Projects', path: '/projects' },
   { name: 'Contact', path: '/contact' },
+  { name: 'More', path: '/NotFound' },
 ];
