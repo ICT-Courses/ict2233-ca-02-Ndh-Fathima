@@ -34,26 +34,23 @@ const About: React.FC = () => {
               </h2>
               <div className="text-lg text-gray-600 dark:text-gray-400 space-y-4">
                 <p>
-                  I'm a passionate full-stack developer with over 3 years of experience in creating 
-                  beautiful, functional, and user-friendly web applications. My journey in tech started 
-                  during my university years when I discovered my love for problem-solving through code.
+                  I am a 2nd-year undergraduate specializing in Information and Communication Technology at the University of Sri Jayewardenepura. 
+                  Passionate about leveraging technology to solve real-world problems, I am continuously exploring innovative solutions in software development, 
+                  database management, and application design.
                 </p>
                 <p>
-                  I specialize in React, TypeScript, and modern JavaScript frameworks, but I'm always 
-                  eager to learn new technologies and take on challenging projects. When I'm not coding, 
-                  you can find me exploring new design trends, contributing to open-source projects, 
-                  or enjoying a good cup of coffee while planning my next project.
+                  With hands-on experience in C#, WPF, MySQL, HTML, CSS, JS, React and project development, 
+                  I thrive on turning ideas into functional digital solutions. I am eager to connect with like-minded professionals, 
+                  contribute to impactful projects, and grow in areas of software development, IT systems, and emerging technologies.
                 </p>
-                <p>
-                  Based in {PERSONAL_INFO.location}, I enjoy working with clients and teams from 
-                  around the world, bringing diverse perspectives to every project I work on.
-                </p>
+
+                  
               </div>
               
               <div className="flex items-center gap-6 pt-4">
                 <div className="flex items-center gap-2 text-gray-600 dark:text-gray-400">
                   <Coffee className="w-5 h-5" />
-                  <span>Coffee Enthusiast</span>
+                  <span>Tea Enthusiast</span>
                 </div>
                 <div className="flex items-center gap-2 text-gray-600 dark:text-gray-400">
                   <Code className="w-5 h-5" />
@@ -62,6 +59,7 @@ const About: React.FC = () => {
                 <div className="flex items-center gap-2 text-gray-600 dark:text-gray-400">
                   <Heart className="w-5 h-5 text-red-500" />
                   <span>Design Lover</span>
+                
                 </div>
               </div>
             </div>

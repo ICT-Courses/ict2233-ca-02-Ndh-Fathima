@@ -103,8 +103,8 @@ const Home: React.FC = () => {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             {[
               { number: "3+", label: "Years Experience" },
-              { number: "50+", label: "Projects Completed" },
-              { number: "15+", label: "Technologies" },
+              { number: "2+", label: "Projects Completed" },
+              { number: "10+", label: "Technologies" },
               { number: "100%", label: "Client Satisfaction" }
             ].map((stat, index) => (
               <div key={index} className="text-center">
