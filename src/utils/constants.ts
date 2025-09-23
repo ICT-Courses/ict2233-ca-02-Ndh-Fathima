@@ -6,24 +6,24 @@ export const PERSONAL_INFO = {
   email: "nadhafathima565@gmail.com",
   phone: "+94 75 800 5838",
   location: "Matale, Sri Lanka",
-  bio: "Passionate developer with expertise in React, TypeScript, and modern web technologies. I love creating beautiful, functional, and user-friendly applications that solve real-world problems.",
+  bio: "I am a student at the University of Sri Jayawardenapura, passionate about frontend fevelopment and creating engaging user expereiences.",
   githubUsername: "Ndh-Fathima", 
 };
 
 export const SOCIAL_LINKS: SocialLink[] = [
   {
     name: "GitHub",
-    url: "https://github.com/fathimahudha",
+    url: "https://github.com/Ndh-Fathima",
     icon: "github"
   },
   {
     name: "LinkedIn", 
-    url: "https://linkedin.com/in/fathimahudha",
+    url: "https://www.linkedin.com/in/nadha-siddeek-5ab832204",
     icon: "linkedin"
   },
   {
     name: "Email",
-    url: "mailto:fathima.hudha@example.com",
+    url: "mailto:nadhafathima565@gmail.com",
     icon: "mail"
   }
 ];
@@ -33,12 +33,12 @@ export const SKILLS: Skill[] = [
   { name: "TypeScript", level: "Advanced", category: "Frontend", icon: "🔷" },
   { name: "JavaScript", level: "Expert", category: "Frontend", icon: "🟨" },
   { name: "HTML/CSS", level: "Expert", category: "Frontend", icon: "🌐" },
-  { name: "Tailwind CSS", level: "Advanced", category: "Frontend", icon: "🎨" },
-  { name: "Sass/SCSS", level: "Advanced", category: "Frontend", icon: "🎯" },
+  
+  
   { name: "Node.js", level: "Intermediate", category: "Backend", icon: "🟢" },
-  { name: "Express.js", level: "Intermediate", category: "Backend", icon: "⚡" },
+  
   { name: "MongoDB", level: "Intermediate", category: "Backend", icon: "🍃" },
-  { name: "Firebase", level: "Intermediate", category: "Backend", icon: "🔥" },
+  
   { name: "Git", level: "Advanced", category: "Tools", icon: "📦" },
   { name: "VS Code", level: "Expert", category: "Tools", icon: "💻" },
   { name: "Figma", level: "Intermediate", category: "Tools", icon: "🎨" },
@@ -80,94 +80,57 @@ export const EXPERIENCE: Experience[] = [
 export const EDUCATION: Education[] = [
   {
     id: "1",
-    degree: "Bachelor of Information Technology",
-    institution: "University of Colombo School of Computing (UCSC)",
-    period: "2020 - 2024",
-    description: "Specialized in Software Engineering with focus on web technologies and database systems.",
-    gpa: "3.8/4.0"
+    degree: "BSc Hons in Information Technology",
+    institution: "University of Sri Jayawardenapura",
+    period: "2024 - 2027",
+    description: "Specialize in Information and Communication Technology",
   },
   {
     id: "2",
-    degree: "Advanced Level (Science)",
-    institution: "Royal College Colombo",
-    period: "2018 - 2020",
-    description: "Physics, Chemistry, Combined Mathematics"
+    degree: "Advanced Level (Arts(English Meduim))",
+    institution: "Amina Girls's National School Matale",
+    period: "2019 - 2023",
   }
 ];
 
 export const SAMPLE_PROJECTS: Project[] = [
   {
     id: "1",
-    title: "E-Commerce Platform",
-    description: "A full-featured e-commerce website with user authentication, shopping cart, and payment integration",
-    longDescription: "Complete e-commerce solution built with React and Node.js featuring user authentication, product catalog, shopping cart, order management, and Stripe payment integration. Includes admin dashboard for product and order management.",
-    technologies: ["React", "Node.js", "Express", "MongoDB", "Stripe API", "JWT", "Tailwind CSS"],
-    githubUrl: "https://github.com/fathimahudha/ecommerce-platform",
-    demoUrl: "https://fathima-ecommerce.netlify.app",
-    imageUrl: "/images/project1.png",
+    title: "Employee Management System",
+    description: "It is a desktop-based Employee Management System built using WPF (Windows Presentation Foundation) and MySQL",
+    longDescription: "WorkLoom is a desktop-based Employee Management System built using WPF (Windows Presentation Foundation) and MySQL. It allows users to manage employees, attendance, payroll, departments, and more with a smooth and interactive interface.",
+    technologies: ["Frontend: WPF (.NET 8), Database: MySQL, Language: C#, PDF Export: QuestPDF"],
+    githubUrl: "https://github.com/ICT-Courses/application-development-ca1-Ndh-Fathima.git",
+    demoUrl: "https://drive.google.com/file/d/1mcZzMJCJCMKnoow9k7ZnYpcGKa-ZcP5b/view?usp=sharing",
+    imageUrl: "https://shiftin.app/wp-content/uploads/2021/10/what-are-employee-management-systems.jpg",
     featured: true,
-    category: "web"
+    category: "desktop"
   },
   {
     id: "2", 
-    title: "Weather Dashboard",
-    description: "Real-time weather application with location-based forecasts and interactive maps",
-    longDescription: "Weather dashboard application that provides current conditions, 7-day forecasts, and interactive weather maps. Features geolocation support, search functionality, and detailed weather analytics using OpenWeather API.",
-    technologies: ["React", "TypeScript", "OpenWeather API", "Chart.js", "Tailwind CSS"],
-    githubUrl: "https://github.com/fathimahudha/weather-dashboard",
-    demoUrl: "https://fathima-weather.netlify.app",
-    imageUrl: "/images/project2.png", 
+    title: "Student Registration System",
+    description: "A web application that allows students to register for courses and manage their profiles, while enabling administrators to manage student records, track enrollments, and generate reports efficiently.",
+    longDescription: "A web-based application that enables students to easily register for courses, manage their personal profiles, and view enrollment details. Administrators can efficiently manage student records, track course registrations, and generate reports, streamlining the overall registration process and improving data management.",
+    technologies: ["flask", "CSS","HTML","JavaScript"],
+    githubUrl: "https://github.com/SD187/EduNova-Student-Registration-System.git",
+    demoUrl: "https://drive.google.com/file/d/1zX0wiXJheNVqdzi82dMys6wW1FSkfIiE/view?usp=drivesdk",
+    imageUrl: "https://media.istockphoto.com/id/1463013729/photo/online-registration-form-for-modish-form-filling.jpg?s=612x612&w=0&k=20&c=Fnx06haU4IHYLcRpy9Po_TBknvBqVjicGuUWkGu8e6Y=", 
     featured: true,
     category: "web"
   },
   {
     id: "3",
-    title: "Task Management App", 
-    description: "Collaborative project management tool with real-time updates and team features",
-    longDescription: "Full-stack task management application with real-time collaboration features, file uploads, team management, and progress tracking. Built with React and Firebase for real-time synchronization.",
-    technologies: ["React", "Firebase", "Material-UI", "WebSocket", "Cloud Functions"],
-    githubUrl: "https://github.com/fathimahudha/task-manager",
-    demoUrl: "https://fathima-tasks.netlify.app",
-    imageUrl: "/images/project3.png",
-    featured: false,
+    title: "Book Library", 
+    description: "This online book library offers easy access to books and resources anytime, anywhere.",
+    longDescription: "An online book library is a digital platform to browse, read  books anytime. It offers easy search, organized categories, and instant access to e-books.",
+    technologies: ["React", "CSS", "Java Script", "HTML"],
+    githubUrl: "https://github.com/ICT-Courses/ict2233-ca-01-Ndh-Fathima.git",
+    demoUrl: "",
+    imageUrl: "https://img.freepik.com/premium-photo/many-old-books-bookshelf-library_129479-5503.jpg?semt=ais_incoming&w=740&q=80",
+    featured: true,
     category: "web"
   },
-  {
-    id: "4",
-    title: "Recipe Finder",
-    description: "Recipe search and meal planning application with nutritional information",
-    longDescription: "Recipe discovery app that helps users find recipes based on ingredients they have, dietary restrictions, and nutritional goals. Features meal planning and grocery list generation.",
-    technologies: ["React", "Spoonacular API", "CSS Modules", "Local Storage"],
-    githubUrl: "https://github.com/fathimahudha/recipe-finder",
-    demoUrl: "https://fathima-recipes.netlify.app",
-    imageUrl: "/images/project1.png",
-    featured: false,
-    category: "web"
-  },
-  {
-    id: "5",
-    title: "Portfolio Website",
-    description: "Personal portfolio website showcasing projects and skills",
-    longDescription: "Responsive portfolio website built with React and TypeScript, featuring dark mode, smooth animations, and GitHub API integration for dynamic project display.",
-    technologies: ["React", "TypeScript", "Tailwind CSS", "Framer Motion", "GitHub API"],
-    githubUrl: "https://github.com/fathimahudha/portfolio",
-    demoUrl: "https://fathimahudha.github.io",
-    imageUrl: "/images/project2.png",
-    featured: false,
-    category: "web"
-  },
-  {
-    id: "6",
-    title: "Expense Tracker",
-    description: "Personal finance management tool with budgeting and analytics",
-    longDescription: "Expense tracking application with category-based spending analysis, budget setting, and financial goal tracking. Features data visualization and export functionality.",
-    technologies: ["React", "Chart.js", "IndexedDB", "PWA", "CSS Grid"],
-    githubUrl: "https://github.com/fathimahudha/expense-tracker",
-    demoUrl: "https://fathima-expenses.netlify.app",
-    imageUrl: "/images/project3.png",
-    featured: false,
-    category: "web"
-  }
+  
 ];
 
 export const API_ENDPOINTS = {

@@ -22,7 +22,7 @@ const Home: React.FC = () => {
 
   return (
     <div className="min-h-screen">
-      {/* Hero Section */}
+      {/* This is the Hero section of my portfolio */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-gray-900 dark:to-gray-800">
         <div className="max-w-7xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -97,7 +97,7 @@ const Home: React.FC = () => {
         </div>
       </section>
 
-      {/* Stats Section */}
+      {/* This is the Stats Section of my portfolio*/}
       <section className="py-16 bg-white dark:bg-gray-900">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
@@ -150,7 +150,7 @@ const Home: React.FC = () => {
         </div>
       </section>
 
-      {/* Skills Preview Section */}
+      {/* Skills Section */}
       <section className="py-20 bg-white dark:bg-gray-900">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
