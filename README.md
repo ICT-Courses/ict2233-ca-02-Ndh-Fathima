@@ -4,24 +4,40 @@ A stunning, interactive portfolio website built with React and TypeScript, featu
 
 ## ✨ Features
 
-- **Interactive design** with mouse-following background elements
-- **Dark theme** with gradient overlays and glassmorphism effects
-- **Smooth animations** and hover effects throughout
-- **Fully responsive** design for all devices
-- **Modern tech stack** - React, TypeScript, Tailwind CSS
+- **Home Page:** Hero section with my introduction, name, tagline.  
+- **About Page:** Background, education, technical and soft skills.  
+- **Projects Page:** Showcases at least 3 projects with descriptions, and links to GitHub/liv        
+- **Contact Page:** Functional contact form with validation, plus links to LinkedIn, GitHub, and email.  
+- **More/404 Page:** Custom NotFound page for unknown routes.  
+- **Dark Mode Toggle:** Switch between light and dark themes.  
+- **Responsive Design:** Works on mobile, tablet, and desktop screens.  
+- **Animations:** Smooth page transitions using Tailwind CSS and Framer Motion.
+
+
+Folder structure
+src/
+├─ components/   # Header, Footer, etc.
+├─ hooks/        # Custom hooks (useDarkMode)
+├─ pages/        # Home, About, Projects, Contact, NotFound
+├─ utils/        # Constants, helper functions
+└─ App.tsx       # Main app file with routing
+
 
 ## 🛠️ Tech Stack
 
-- React 18 + TypeScript
-- Tailwind CSS for styling
-- Lucide React for icons
-- Vite for fast development
+- React.js (Functional Components, Hooks)  
+- TypeScript  
+- React Router for client-side routing  
+- Tailwind CSS for styling  
+- Framer Motion for animations  
+- Git & GitHub for version control  
+- GitHub Pages for deployment  
 
 ## 🚀 Quick Start
 
 bash
 # Clone the repo
-git clone https://github.com/Ndh-Fathima
+git clone https://github.com/ICT-Courses/ict2233-ca-02-Ndh-Fathima.git
 
 
 # Install dependencies
