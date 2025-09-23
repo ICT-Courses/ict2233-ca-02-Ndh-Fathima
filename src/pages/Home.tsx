@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowRight, Download, Github, Linkedin, Mail, MapPin, Phone } from 'lucide-react';
+import { ArrowRight, Github, Linkedin, Mail } from 'lucide-react';
 import { PERSONAL_INFO, SOCIAL_LINKS, SAMPLE_PROJECTS } from '../utils/constants';
 import ProjectCard from '../components/ProjectCard';
 
@@ -22,26 +22,26 @@ const Home: React.FC = () => {
 
   return (
     <div className="min-h-screen">
-      {/* This is the Hero section of my portfolio */}
+      {/* Hero Section */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-gray-900 dark:to-gray-800">
         <div className="max-w-7xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-8">
               <div className="space-y-6">
                 <div className="space-y-2">
-                  <p className="text-blue-600 dark:text-blue-400 font-medium text-lg">
+                  <p className="text-blue-600 dark:text-blue-400 font-inter font-medium text-lg">
                     Hello, I'm
                   </p>
-                  <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-gray-900 dark:text-white leading-tight">
+                  <h1 className="font-heading text-5xl sm:text-6xl lg:text-7xl font-bold text-gray-900 dark:text-white leading-tight">
                     <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">
                       {PERSONAL_INFO.name}
                     </span>
                   </h1>
-                  <p className="text-2xl sm:text-3xl text-gray-600 dark:text-gray-300 font-medium">
+                  <p className="font-heading text-2xl sm:text-3xl text-gray-600 dark:text-gray-300 font-semibold">
                     {PERSONAL_INFO.tagline}
                   </p>
                 </div>
-                <p className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl leading-relaxed">
+                <p className="font-inter text-lg text-gray-600 dark:text-gray-400 max-w-2xl leading-relaxed">
                   {PERSONAL_INFO.bio}
                 </p>
               </div>
@@ -49,19 +49,20 @@ const Home: React.FC = () => {
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link
                   to="/projects"
-                  className="inline-flex items-center justify-center px-8 py-4 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg transition-all duration-200 group shadow-lg hover:shadow-xl"
+                  className="inline-flex items-center justify-center px-8 py-4 bg-blue-600 hover:bg-blue-700 text-white font-heading font-semibold rounded-lg transition-all duration-200 group shadow-lg hover:shadow-xl"
                 >
                   View My Work
                   <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
                 </Link>
                 <Link
                   to="/contact"
-                  className="inline-flex items-center justify-center px-8 py-4 bg-transparent border-2 border-gray-300 dark:border-gray-600 hover:border-blue-600 dark:hover:border-blue-400 text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 font-semibold rounded-lg transition-all duration-200 hover:bg-blue-50 dark:hover:bg-blue-900/20"
+                  className="inline-flex items-center justify-center px-8 py-4 bg-transparent border-2 border-gray-300 dark:border-gray-600 hover:border-blue-600 dark:hover:border-blue-400 text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 font-heading font-semibold rounded-lg transition-all duration-200 hover:bg-blue-50 dark:hover:bg-blue-900/20"
                 >
                   Get In Touch
                 </Link>
               </div>
 
+              {/* Social Links */}
               <div className="flex items-center space-x-6 pt-4">
                 {SOCIAL_LINKS.map((link) => {
                   const IconComponent = getSocialIcon(link.icon);
@@ -81,6 +82,7 @@ const Home: React.FC = () => {
               </div>
             </div>
 
+            {/* Hero Image */}
             <div className="flex justify-center lg:justify-end">
               <div className="relative">
                 <div className="w-80 h-80 lg:w-96 lg:h-96 bg-gradient-to-br from-blue-400 via-purple-500 to-pink-500 rounded-full p-1 shadow-2xl">
@@ -97,7 +99,7 @@ const Home: React.FC = () => {
         </div>
       </section>
 
-      {/* This is the Stats Section of my portfolio*/}
+      {/* Stats Section */}
       <section className="py-16 bg-white dark:bg-gray-900">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
@@ -108,10 +110,10 @@ const Home: React.FC = () => {
               { number: "100%", label: "Client Satisfaction" }
             ].map((stat, index) => (
               <div key={index} className="text-center">
-                <div className="text-3xl md:text-4xl font-bold text-blue-600 dark:text-blue-400 mb-2">
+                <div className="font-heading text-3xl md:text-4xl font-bold text-blue-600 dark:text-blue-400 mb-2">
                   {stat.number}
                 </div>
-                <div className="text-gray-600 dark:text-gray-400">
+                <div className="font-inter text-gray-600 dark:text-gray-400">
                   {stat.label}
                 </div>
               </div>
@@ -124,10 +126,10 @@ const Home: React.FC = () => {
       <section className="py-20 bg-gray-50 dark:bg-gray-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 dark:text-white mb-6">
+            <h2 className="font-heading text-4xl sm:text-5xl font-bold text-gray-900 dark:text-white mb-6">
               Featured Projects
             </h2>
-            <p className="text-xl text-gray-600 dark:text-gray-400 max-w-3xl mx-auto">
+            <p className="font-inter text-xl text-gray-600 dark:text-gray-400 max-w-3xl mx-auto">
               Here are some of my recent projects that showcase my skills in modern web development
             </p>
           </div>
@@ -141,7 +143,7 @@ const Home: React.FC = () => {
           <div className="text-center mt-12">
             <Link
               to="/projects"
-              className="inline-flex items-center px-8 py-4 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg transition-colors shadow-lg hover:shadow-xl"
+              className="inline-flex items-center px-8 py-4 bg-blue-600 hover:bg-blue-700 text-white font-heading font-semibold rounded-lg transition-colors shadow-lg hover:shadow-xl"
             >
               View All Projects
               <ArrowRight className="ml-2 w-5 h-5" />
@@ -154,10 +156,10 @@ const Home: React.FC = () => {
       <section className="py-20 bg-white dark:bg-gray-900">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 dark:text-white mb-6">
+            <h2 className="font-heading text-4xl sm:text-5xl font-bold text-gray-900 dark:text-white mb-6">
               Technical Skills
             </h2>
-            <p className="text-xl text-gray-600 dark:text-gray-400 max-w-3xl mx-auto">
+            <p className="font-inter text-xl text-gray-600 dark:text-gray-400 max-w-3xl mx-auto">
               Technologies and tools I work with to bring ideas to life
             </p>
           </div>
@@ -175,7 +177,7 @@ const Home: React.FC = () => {
                 <div className="text-4xl mb-3 group-hover:scale-110 transition-transform">
                   {skill.icon}
                 </div>
-                <div className="text-sm font-medium text-gray-900 dark:text-white">
+                <div className="font-heading text-sm font-medium text-gray-900 dark:text-white">
                   {skill.name}
                 </div>
               </div>
@@ -185,7 +187,7 @@ const Home: React.FC = () => {
           <div className="text-center mt-12">
             <Link
               to="/about"
-              className="inline-flex items-center px-8 py-4 bg-transparent border-2 border-blue-600 hover:bg-blue-600 text-blue-600 hover:text-white font-semibold rounded-lg transition-all duration-200"
+              className="inline-flex items-center px-8 py-4 bg-transparent border-2 border-blue-600 hover:bg-blue-600 text-blue-600 hover:text-white font-heading font-semibold rounded-lg transition-all duration-200"
             >
               Learn More About Me
               <ArrowRight className="ml-2 w-5 h-5" />

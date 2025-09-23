@@ -10,7 +10,7 @@
   }
 }
 
-
+/* Custom scrollbar */
 ::-webkit-scrollbar {
   width: 8px;
 }
@@ -27,7 +27,7 @@
   @apply bg-gray-500 dark:bg-gray-500;
 }
 
-
+/* Line clamp utility */
 .line-clamp-2 {
   display: -webkit-box;
   -webkit-line-clamp: 2;
@@ -42,12 +42,12 @@
   overflow: hidden;
 }
 
-
+/* Smooth transitions for dark mode */
 * {
   transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
 }
 
-
+/* Focus styles */
 button:focus,
 input:focus,
 textarea:focus,
@@ -57,7 +57,7 @@ a:focus {
   outline-offset: 2px;
 }
 
-
+/* Glass morphism effect */
 .glass {
   backdrop-filter: blur(16px) saturate(180%);
   -webkit-backdrop-filter: blur(16px) saturate(180%);
@@ -72,7 +72,7 @@ a:focus {
   border: 1px solid rgba(75, 85, 99, 0.3);
 }
 
-
+/* Animation for floating elements */
 @keyframes float {
   0%, 100% { transform: translateY(0px); }
   50% { transform: translateY(-20px); }
@@ -82,7 +82,7 @@ a:focus {
   animation: float 6s ease-in-out infinite;
 }
 
-
+/* Gradient text */
 .gradient-text {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   -webkit-background-clip: text;
@@ -90,13 +90,13 @@ a:focus {
   -webkit-text-fill-color: transparent;
 }
 
-
+/* Custom button hover effects */
 .btn-hover:hover {
   transform: translateY(-2px);
   box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
 }
 
-
+/* Skill progress animations */
 @keyframes skillProgress {
   from { width: 0%; }
   to { width: var(--skill-width); }
@@ -106,7 +106,7 @@ a:focus {
   animation: skillProgress 2s ease-out;
 }
 
-
+/* Loading animation */
 @keyframes pulse-ring {
   0% {
     transform: scale(0.33);
@@ -120,7 +120,7 @@ a:focus {
   animation: pulse-ring 1.25s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
 }
 
-
+/* Card hover effects */
 .card-hover {
   transition: all 0.3s ease;
 }
@@ -130,7 +130,7 @@ a:focus {
   box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
 }
 
-
+/* Text selection */
 ::selection {
   @apply bg-blue-600 text-white;
 }
@@ -139,28 +139,28 @@ a:focus {
   @apply bg-blue-600 text-white;
 }
 
-
+/* Responsive design helpers */
 @media (max-width: 640px) {
   .responsive-text {
     font-size: clamp(1.5rem, 8vw, 3rem);
   }
 }
 
-
+/* Dark mode improvements */
 @media (prefers-color-scheme: dark) {
   :root {
     color-scheme: dark;
   }
 }
 
-
+/* Print styles */
 @media print {
   .no-print {
     display: none !important;
   }
 }
 
-
+/* Accessibility improvements */
 @media (prefers-reduced-motion: reduce) {
   *,
   ::before,
@@ -172,7 +172,7 @@ a:focus {
   }
 }
 
-
+/* High contrast mode support */
 @media (prefers-contrast: high) {
   .text-gray-600 {
     @apply text-gray-900;
