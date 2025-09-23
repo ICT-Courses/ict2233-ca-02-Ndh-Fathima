@@ -15,7 +15,7 @@ const About: React.FC = () => {
   return (
     <div className="min-h-screen py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Header Section */}
+        {/* Header Section for the home page */}
         <div className="text-center mb-20">
           <h1 className="text-5xl sm:text-6xl font-bold text-gray-900 dark:text-white mb-6">
             About Me
@@ -25,7 +25,7 @@ const About: React.FC = () => {
           </p>
         </div>
 
-        {/* Bio Section */}
+        {/* About myself in the bio section */}
         <section className="mb-20">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div className="space-y-6">
@@ -82,7 +82,7 @@ const About: React.FC = () => {
           </div>
         </section>
 
-        {/* Skills Section */}
+        {/* My top skills */}
         <section className="mb-20">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-6">
@@ -111,7 +111,7 @@ const About: React.FC = () => {
 
 
 
-        {/* Education Section */}
+        {/* About my Education */}
         <section className="mb-20">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-6">
@@ -157,7 +157,7 @@ const About: React.FC = () => {
           </div>
         </section>
 
-        {/* Fun Facts Section */}
+        {/* Fun Facts about me */}
         <section>
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-6">

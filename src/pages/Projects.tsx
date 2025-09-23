@@ -37,7 +37,7 @@ const Projects: React.FC = () => {
   return (
     <div className="min-h-screen py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Header Section */}
+        {/* Header Section of Project page */}
         <div className="text-center mb-16">
           <h1 className="text-5xl sm:text-6xl font-bold text-gray-900 dark:text-white mb-6">
             My Projects
@@ -47,7 +47,7 @@ const Projects: React.FC = () => {
           </p>
         </div>
 
-        {/* Tabs */}
+        {/* Tabs for the project page */}
         <div className="flex justify-center mb-12">
           <div className="bg-gray-100 dark:bg-gray-800 rounded-xl p-2 flex">
             <button
@@ -73,9 +73,9 @@ const Projects: React.FC = () => {
           </div>
         </div>
 
-        {/* Search and Filter */}
+        {/* Serach and filter my projects */}
         <div className="flex flex-col md:flex-row gap-6 mb-12">
-          {/* Search Bar */}
+          {/* Seraching bar */}
           <div className="flex-1 relative">
             <Search className="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-400 w-5 h-5" />
             <input
@@ -87,7 +87,7 @@ const Projects: React.FC = () => {
             />
           </div>
 
-          {/* Category Filter (Only for Portfolio) */}
+          {/* Filtering according to the categories. */}
           {activeTab === 'portfolio' && (
             <div className="relative">
               <Filter className="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-400 w-5 h-5" />
@@ -106,7 +106,7 @@ const Projects: React.FC = () => {
           )}
         </div>
 
-        {/* Stats */}
+        {/* Stats for the project page*/}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-16">
           <div className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-lg border border-gray-200 dark:border-gray-700 text-center">
             <div className="text-3xl font-bold text-blue-600 dark:text-blue-400 mb-2">
@@ -134,7 +134,7 @@ const Projects: React.FC = () => {
           </div>
         </div>
 
-        {/* Projects Grid */}
+        {/* Grid for my projects */}
         {activeTab === 'portfolio' ? (
           <div>
             {filteredProjects.length > 0 ? (
@@ -203,7 +203,7 @@ const Projects: React.FC = () => {
           </div>
         )}
 
-        {/* GitHub Profile Link */}
+        {/* My github profile link */}
         <div className="text-center mt-16">
           <a
             href={`https://github.com/${PERSONAL_INFO.githubUsername}`}

@@ -25,7 +25,7 @@ const Contact: React.FC = () => {
   return (
     <div className="min-h-screen py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Header Section */}
+        {/* Header Section  for the contact page*/}
         <div className="text-center mb-20">
           <h1 className="text-5xl sm:text-6xl font-bold text-gray-900 dark:text-white mb-6">
             Get In Touch
@@ -37,7 +37,7 @@ const Contact: React.FC = () => {
         </div>
 
         <div className="grid lg:grid-cols-2 gap-16">
-          {/* Contact Information */}
+          {/* My Contact informations. */}
           <div className="space-y-8">
             <div>
               <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">
@@ -49,7 +49,7 @@ const Contact: React.FC = () => {
               </p>
             </div>
 
-            {/* Contact Details */}
+            {/* My Contact details */}
             <div className="space-y-6">
               <div className="flex items-center gap-4">
                 <div className="p-3 bg-blue-100 dark:bg-blue-900/30 rounded-lg">
@@ -102,7 +102,7 @@ const Contact: React.FC = () => {
               </div>
             </div>
 
-            {/* Social Media */}
+            {/* About my Social media details */}
             <div>
               <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-4">
                 Follow Me
@@ -126,7 +126,7 @@ const Contact: React.FC = () => {
               </div>
             </div>
 
-            {/* Availability Status */}
+            
             <div className="bg-green-50 dark:bg-green-900/20 border border-green-200 dark:border-green-800 rounded-xl p-6">
               <div className="flex items-center gap-3 mb-3">
                 <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
@@ -149,7 +149,7 @@ const Contact: React.FC = () => {
           </div>
         </div>
 
-        {/* FAQ Section */}
+        {/* Asked question Section */}
         <section className="mt-24">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-6">
