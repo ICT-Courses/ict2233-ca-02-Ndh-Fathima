@@ -5,10 +5,10 @@
   "description": "Personal portfolio website built with React and TypeScript",
   "author": "Fathima Hudha",
   "license": "MIT",
-  "homepage": "https://fathimahudha.github.io",
+  "homepage": "https://github.com/Ndh-Fathima",
   "repository": {
     "type": "git",
-    "url": "https://github.com/fathimahudha/portfolio.git"
+    "url": "https://github.com/Ndh-Fathima"
   },
   "keywords": [
     "portfolio",
