@@ -49,4 +49,10 @@ npm start
 
 Visit `http://localhost:3000` to see my portfolio!
 
+1️⃣ GitHub Repository:
+https://github.com/ICT-Courses/ict2233-ca-02-Ndh-Fathima
+
+2️⃣ Live Website (GitHub Pages):
+https://ict-courses.github.io/ict2233-ca-02-Ndh-Fathima/
+
 
