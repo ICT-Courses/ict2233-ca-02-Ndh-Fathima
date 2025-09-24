@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, Github, Linkedin, Mail } from 'lucide-react';
 import { PERSONAL_INFO, SOCIAL_LINKS, SAMPLE_PROJECTS } from '../utils/constants';
+
 import ProjectCard from '../components/ProjectCard';
 
 const Home: React.FC = () => {
@@ -30,7 +31,7 @@ const Home: React.FC = () => {
               <div className="space-y-6">
                 <div className="space-y-2">
                   <p className="text-blue-600 dark:text-blue-400 font-inter font-medium text-lg">
-                    Hello, I'm
+                    Hey, I'm
                   </p>
                   <h1 className="font-heading text-5xl sm:text-6xl lg:text-7xl font-bold text-gray-900 dark:text-white leading-tight">
                     <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">
