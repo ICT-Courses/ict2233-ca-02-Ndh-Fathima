@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ict2233-ca-02-Ndh-Fathima/static/css/main.6037b0bc.css",
+    "main.js": "/ict2233-ca-02-Ndh-Fathima/static/js/main.0e55338e.js",
+    "index.html": "/ict2233-ca-02-Ndh-Fathima/index.html",
+    "main.6037b0bc.css.map": "/ict2233-ca-02-Ndh-Fathima/static/css/main.6037b0bc.css.map",
+    "main.0e55338e.js.map": "/ict2233-ca-02-Ndh-Fathima/static/js/main.0e55338e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6037b0bc.css",
+    "static/js/main.0e55338e.js"
+  ]
+}
