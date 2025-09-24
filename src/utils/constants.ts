@@ -97,7 +97,7 @@ export const SAMPLE_PROJECTS: Project[] = [
     longDescription: "An online book library is a digital platform to browse, read  books anytime. It offers easy search, organized categories, and instant access to e-books.",
     technologies: ["React", "CSS", "Java Script", "HTML"],
     githubUrl: "https://github.com/ICT-Courses/ict2233-ca-01-Ndh-Fathima.git",
-    demoUrl: "https://drive.google.com/file/d/1B4oDLVu9388ce-y0g3O1vgiWH-0trpkr/view?usp=drive_link",
+    demoUrl: "hhttps://drive.google.com/file/d/1B4oDLVu9388ce-y0g3O1vgiWH-0trpkr/view?usp=drivesdk",
     imageUrl: "https://img.freepik.com/premium-photo/many-old-books-bookshelf-library_129479-5503.jpg?semt=ais_incoming&w=740&q=80",
     featured: true,
     category: "web"
