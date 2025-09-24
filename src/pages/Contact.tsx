@@ -31,8 +31,8 @@ const Contact: React.FC = () => {
             Get In Touch
           </h1>
           <p className="text-xl text-gray-600 dark:text-gray-400 max-w-3xl mx-auto">
-            Have a project in mind or just want to chat? I'd love to hear from you. 
-            Let's discuss how we can work together to bring your ideas to life.
+            Got something to do or would like to speak? I'd love to hear from you.
+            Talking about the ways of collaborating to make your ideas come true, we should.
           </p>
         </div>
 
@@ -165,17 +165,17 @@ const Contact: React.FC = () => {
               
               {
                 question: "Do you work with teams or solo?",
-                answer: "I enjoy both! I can work independently on smaller projects or collaborate with your existing team. I'm experienced with agile methodologies and remote collaboration tools."
+                answer: "I enjoy both! I can work independently on smaller projects or collaborate with a team. I'm experienced with agile methodologies."
               },
               {
                 question: "What technologies do you specialize in?",
-                answer: "My primary focus is on React, TypeScript, Node.js, and modern web technologies. I'm also comfortable with various databases, cloud platforms, and deployment tools."
+                answer: "My primary focus is on React, TypeScript, Node.js, and modern web technologies. I'm also comfortable with various databases like MongoDB, and deployment tools."
               },
               
               
               {
                 question: "Can you help with existing projects?",
-                answer: "Yes! I can help debug issues, add new features, improve performance, or modernize legacy codebases. I'm comfortable working with existing systems and teams."
+                answer: "Yes! I can help debug issues, add new features, and  improve performance. I'm comfortable working with existing teams."
               }
             ].map((faq, index) => (
               <div key={index} className="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg border border-gray-200 dark:border-gray-700">

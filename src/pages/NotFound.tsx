@@ -9,7 +9,7 @@ const NotFound: React.FC = () => {
   return (
     <div className="min-h-screen flex items-center justify-center py-20">
       <div className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        {/* 404 Animation */}
+      
         <div className="mb-12">
           <div className="text-9xl font-bold text-blue-600 dark:text-blue-400 mb-4 animate-bounce">
             404
@@ -17,19 +17,19 @@ const NotFound: React.FC = () => {
           <div className="text-6xl mb-6">🚀💥</div>
         </div>
 
-        {/* Error Message */}
+      
         <div className="space-y-6 mb-12">
           <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 dark:text-white">
             Oops! Page Not Found
           </h1>
           <p className="text-xl text-gray-600 dark:text-gray-400">
-            It looks like this page decided to take a coffee break and never came back. 
-            Don't worry, it happens to the best of us!
+            It appears that this page went out to have a coffee break and never returned.
+            There is nothing to fret, it befalls the best of us!
           </p>
           <div className="bg-gray-50 dark:bg-gray-800 rounded-xl p-6 border border-gray-200 dark:border-gray-700">
             <p className="text-gray-600 dark:text-gray-400">
-              The page you're looking for might have been moved, deleted, or never existed. 
-              But hey, at least you found this cool 404 page!
+              The one you are seeking was possibly transferred, lost, or never created.
+              But at least, you found this cool 404 page!
             </p>
           </div>
         </div>
@@ -52,7 +52,7 @@ const NotFound: React.FC = () => {
           </button>
         </div>
 
-        {/* Helpful Links */}
+        
         <div className="space-y-4">
           <h2 className="text-2xl font-semibold text-gray-900 dark:text-white">
             While you're here, check out:
@@ -99,14 +99,14 @@ const NotFound: React.FC = () => {
           </div>
         </div>
 
-        {/* Fun Fact */}
+        
         <div className="mt-12 p-6 bg-blue-50 dark:bg-blue-900/20 rounded-xl border border-blue-200 dark:border-blue-800">
           <h3 className="text-lg font-semibold text-blue-900 dark:text-blue-300 mb-2">
             Fun Fact!
           </h3>
           <p className="text-blue-800 dark:text-blue-400">
-            The HTTP 404 error was named after room 404 at CERN, where the World Wide Web was invented. 
-            Though this is actually a myth - but it makes for a cool story!
+            This HTTP 404 error was named after the room 404 at CERN where the World Wide Web was developed.
+            This is technically a myth, however, this would be a fun tale!
           </p>
         </div>
       </div>
